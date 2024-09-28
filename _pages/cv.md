@@ -12,6 +12,7 @@ redirect_from:
 Education
 ======
 * B.E. in the Institute for Interdisciplinary Information Science, Tsinghua University (a.k.a Yao Class), 2021-2025 (estimated)
+  
 Work experience
 ======
 
@@ -32,15 +33,17 @@ Publications
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+<!--   
 Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
-  
+-->
+<!--   
 Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+-->
