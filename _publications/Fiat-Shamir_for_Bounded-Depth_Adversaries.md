@@ -2,6 +2,7 @@
 title: "Fiat-Shamir for Bounded-Depth Adversaries"
 collection: publications
 category: manuscripts
-date: Feb 2024
+venue: 'Cryptology ePrint Archive'
+coauthor: 'Liyan Chen, Yilei Chen, Nuozhou Sun, Tianqi Yang, Yiding Zhang'
 paperurl: 'https://eprint.iacr.org/2024/256'
 ---
