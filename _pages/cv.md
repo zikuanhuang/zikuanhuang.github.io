@@ -26,7 +26,16 @@ Work experience
 
 Awards
 ======
-* Yao Award 2024 (Top 20% in Yao Class)
+* Undergraduate Period (2021-now)
+    * Yao Award 2024 (Top 20% in Yao Class)
+    * Third place of The 47th International Collegiate Programming Contest Asia-East Continent Final (ICPC EC-final 2022)
+    * Runner-up of The 8th China Collegiate Programming Contest (CCPC 2022)
+* High School Period (2018-2021)
+    * Principal's Award (The first place in the class of 2021)
+    * Gold Medalist of The 37th National Olympiad in Informatics (NOI2020, Rank 8)
+    * Gold Medalist of The 14th Asia-Pacific Informatics Olympiad (APIO2020, Rank 1)
+    * Gold Medalist of The 31th IOI China Team Selection Competition (CTS2019)
+    * Gold Medalist of The National Olympiad in Informatics Winter Camp 2019 (NOI-WC2019, Rank 18)
 
 Publications
 ======
