@@ -1,8 +1,10 @@
 ---
-title: "Copy-Protection from UPO, Revisited"
+title: "Copy-Protection from Unclonable Puncturable Obfuscation, Revisited"
 collection: publications
 category: conferences
-venue: 'TQC2025'
-coauthor: 'Prabhanjan Ananth and Amit Behera'
-paperurl: 'https://eprint.iacr.org/2025/1207.pdf'
+venue: 'Merged version submitted to Eurocrypt2026, itself appears in TQC2025'
+coauthor: 'Prabhanjan Ananth and Amit Behera, merged with a related work by Fuyuki Kitagawa and Takashi
+Yamakawa'
+paperurl: 'https://eprint.iacr.org/2025/1880.pdf'
+eprinturl: 'https://zikuanhuang.github.io/files/Copy-Protection from Unclonable Puncturable Obfuscation, Revisited.pdf'
 ---
