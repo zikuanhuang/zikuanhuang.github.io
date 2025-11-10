@@ -11,7 +11,7 @@ redirect_from:
 
 Education
 ======
-* B.E. in the Institute for Interdisciplinary Information Science, Tsinghua University (a.k.a Yao Class), 2021-2025 (estimated)
+* B.E. in the Institute for Interdisciplinary Information Science, Tsinghua University (a.k.a Yao Class), 2021-2025
   
 Work experience
 ======
