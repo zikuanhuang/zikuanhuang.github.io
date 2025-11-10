@@ -7,5 +7,5 @@ author: 'Prabhanjan Ananth, Amit Behera and Zikuan Huang, merged with a related 
 Yamakawa'
 paperurl: 'https://zikuanhuang.github.io/files/Copy-Protection from Unclonable Puncturable Obfuscation, Revisited.pdf'
 eprinturl: 'https://eprint.iacr.org/2025/1880.pdf'
-slideurl: 'https://zikuanhuang.github.io/files/Kyoto-Q-QWorkshop.pptx'
+slidesurl: 'https://zikuanhuang.github.io/files/Kyoto-Q-QWorkshop.pptx'
 ---
