@@ -7,4 +7,4 @@ redirect_from:
   - /about.html
 ---
 
-I am a fourth-year undergraduate student in the Institute for Interdisciplinary Information Science, Tsinghua University (a.k.a Yao Class). I am interested in cryptography, especially post-quantum/quantum cryptography. 
+I am a self-funded researcher. I am interested in cryptography, especially post-quantum/quantum cryptography. I received my Bachelor degree from the Institute for Interdisciplinary Information Science, Tsinghua University (a.k.a Yao Class).
