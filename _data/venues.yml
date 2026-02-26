@@ -1,9 +1,11 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"STOC2026":
+  url: https://acm-stoc.org/stoc2026/
+  color: "#00BFFF"
 
-"PhysRev":
-  url: https://journals.aps.org/
-
-"Vision":
-  color: "#009f36"
+"Eurocrypt2026":
+  url: https://eurocrypt.iacr.org/2026/
+  color: "#FFFF00"
+  
+"TCC2024":
+  url: https://tcc.iacr.org/2024/
+  color: "#32CD32"
