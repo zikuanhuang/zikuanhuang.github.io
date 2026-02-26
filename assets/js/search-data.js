@@ -53,12 +53,7 @@ ninja.data = [{
             },},{id: "news-i-joined-shanghai-qizhi-institute-as-a-researcher",
           title: 'I joined Shanghai Qizhi Institute as a researcher!',
           description: "",
-          section: "News",},{id: "teachings-introduction-to-machine-learning",
-          title: 'Introduction to Machine Learning',
-          description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
-          section: "Teachings",handler: () => {
-              window.location.href = "/teachings/introduction-to-machine-learning/";
-            },},{
+          section: "News",},{
         id: 'social-cv',
         title: 'CV',
         section: 'Socials',
