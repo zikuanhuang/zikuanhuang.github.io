@@ -203,6 +203,9 @@
       {% if entry.arxiv %}
         <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
       {% endif %}
+      {% if entry.eprint %}
+        <a href="https://eprint.iacr.org/{{ entry.eprint }}" class="btn btn-sm z-depth-0" role="button">Eprint</a>
+      {% endif %}
       {% if entry.hal %}
         <a href="https://hal.science/{{ entry.hal }}" class="btn btn-sm z-depth-0" role="button">HAL</a>
       {% endif %}
@@ -291,7 +294,7 @@
               {% elsif entry.arxiv %}
                 data-arxiv-id="{{ entry.arxiv }}"
               {% elsif entry.eprint %}
-                data-arxiv-id="{{ entry.eprint }}"
+                data-eprint-id="{{ entry.eprint }}"
               {% elsif entry.doi %}
                 data-doi="{{ entry.doi }}"
               {% elsif entry.pmid %}
