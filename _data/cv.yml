@@ -38,7 +38,7 @@ cv:
       - title: Yao Award 2024
         authors:
           - "Institute of Interdisciplinary Information Science"
-        date: 2024-08
+        date: 2024.08
         awarder: Institute of Interdisciplinary Information Science
         url: https://iiis.tsinghua.edu.cn/en/Yao_Class/About_Yao_Class.htm
         summary: IIIS (Institute Interdisciplinary Information Science) has established the "Yao Award" to recognize the outstanding performances of Yao Class students in various aspects including morality, intellectuality, physical development, aesthetics, etc., especially their academic achievements and breakthrough research results.
@@ -46,6 +46,6 @@ cv:
       - title: Gold Medalist of The 37th National Olympiad in Informatics
         authors:
           - "China Computer Federation NOI Scientific Committee"
-        date: 2020
+        date: 2020.07
         awarder: China Computer Federation NOI Scientific Committee
         summary: 8th Place in the National Olympiad in Informatics
