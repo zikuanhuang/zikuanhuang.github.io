@@ -78,6 +78,9 @@ def get_scholar_citations() -> None:
             f"Could not fetch author data for user ID '{SCHOLAR_USER_ID}'. Please verify the Scholar user ID and try again."
         )
         sys.exit(1)
+        
+    print("Outputting Scholar Records:")
+    print(author_data)
 
     if "publications" not in author_data:
         print(f"No publications found in author data for user ID '{SCHOLAR_USER_ID}'.")
