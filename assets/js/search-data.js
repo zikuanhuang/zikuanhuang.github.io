@@ -440,10 +440,7 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
-          description: "",
-          section: "News",},{id: "news-i-joined-shanghai-qizhi-institute-as-a-researcher",
+            },},{id: "news-i-joined-shanghai-qizhi-institute-as-a-researcher",
           title: 'I joined Shanghai Qizhi Institute as a researcher!',
           description: "",
           section: "News",},{id: "projects-project-1",
