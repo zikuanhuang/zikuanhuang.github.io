@@ -128,7 +128,6 @@ def get_scholar_citations() -> None:
 
 
 if __name__ == "__main__":
-    print("start...")
     try:
         get_scholar_citations()
     except Exception as e:
