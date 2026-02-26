@@ -9,7 +9,7 @@ profile:
   image: my_photo.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p></p>
+    <p>huangzk0506 at outlook d c0m</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -25,4 +25,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a post bachelor researcher at Shanghai Qizhi Institute. I am interested in complexity theory, algorithms and cryptography in both classical and quantum worlds. I completed B.E. at IIIS (Yao class), Tsinghua University by 2025.
+I am a post bachelor researcher at Shanghai Qizhi Institute. I am interested in complexity theory, algorithms and cryptography in both classical and quantum worlds. I completed B.E. at IIIS (Yao class), Tsinghua University by 2025. I am looking for advisors to pursue a PhD degree!
