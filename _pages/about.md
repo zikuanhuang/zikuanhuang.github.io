@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Shanghai Qizhi Institute
+subtitle: 黄子宽(Simplified Chinese)
 
 profile:
   align: right
