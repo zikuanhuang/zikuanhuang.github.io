@@ -197,11 +197,14 @@
       {% if entry.abstract %}
         <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
       {% endif %}
+      {% if entry.arxiv %}
+        <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
+      {% endif %}
       {% if entry.doi %}
         <a href="https://doi.org/{{ entry.doi }}" class="btn btn-sm z-depth-0" role="button">DOI</a>
       {% endif %}
-      {% if entry.arxiv %}
-        <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button">arXiv</a>
+      {% if entry.eccc %}
+        <a href="https://eccc.weizmann.ac.il/report/{{ entry.eccc }}" class="btn btn-sm z-depth-0" role="button">ECCC</a>
       {% endif %}
       {% if entry.eprint %}
         <a href="https://eprint.iacr.org/{{ entry.eprint }}" class="btn btn-sm z-depth-0" role="button">Eprint</a>
