@@ -25,4 +25,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a post bachelor researcher at Shanghai Qizhi Institute. I am interested in complexity theory, algorithms and cryptography in both classical and quantum worlds. I completed B.E. at IIIS (Yao class), Tsinghua University by 2025. I am looking for advisors to pursue a PhD degree!
+I am a researcher at Shanghai Qizhi Institute. I am interested in complexity theory, algorithms and cryptography in both classical and quantum worlds. 
