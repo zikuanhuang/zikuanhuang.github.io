@@ -1,3 +1,7 @@
+"FOCS2026":
+  url: "https://focs.computer.org/2026/
+  color: "#FF0000"
+
 "STOC2026":
   url: https://acm-stoc.org/stoc2026/
   color: "#00BFFF"
@@ -9,3 +13,6 @@
 "TCC2024":
   url: https://tcc.iacr.org/2024/
   color: "#32CD32"
+
+"UnderReview":
+  color: "#DCDCDC"
