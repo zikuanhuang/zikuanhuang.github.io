@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-03'
+  last_updated: '2026-03-09'
 papers:
   EDJSTAcAAAAJ:IjCSPb-OGe4C:
     citations: 10
@@ -13,3 +13,7 @@ papers:
     citations: 0
     title: Fiat-Shamir for Bounded-Depth Adversaries
     year: '2024'
+  EDJSTAcAAAAJ:eQOLeE2rZwMC:
+    citations: 0
+    title: On the Need for (Quantum) Memory with Short Outputs
+    year: '2026'
