@@ -1,9 +1,9 @@
 "FOCS2026":
-  url: "https://focs.computer.org/2026/
+  url: https://focs.computer.org/2026/
   color: "#FF0000"
 
 "ITC2026":
-  url: "https://itcrypto.github.io/2026/index.html"
+  url: https://itcrypto.github.io/2026/index.html
   color: "990099"
 
 "STOC2026":
