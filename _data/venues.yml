@@ -2,6 +2,10 @@
   url: "https://focs.computer.org/2026/
   color: "#FF0000"
 
+"ITC2026":
+  url: "https://itcrypto.github.io/2026/index.html"
+  color: "7F00FF"
+
 "STOC2026":
   url: https://acm-stoc.org/stoc2026/
   color: "#00BFFF"
