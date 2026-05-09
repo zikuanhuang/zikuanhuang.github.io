@@ -9,6 +9,8 @@
 "chen":
   - firstname: ["Liyan"]
     url: https://chen.liyan.site/
+  - firstname: ["Yilei"]
+    url: http://www.chenyilei.net/
 
 "sun":
   - firstname: ["Nuozhou"]
@@ -41,7 +43,3 @@
 "yuen":
   - firstname: ["Henry"]
     url: https://www.henryyuen.net/
-
-"chen":
-  - firstname: ["Yilei"]
-    url: http://www.chenyilei.net/
