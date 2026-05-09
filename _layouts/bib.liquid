@@ -305,6 +305,7 @@
                   {% endif %}
                 {% endfor %}
               {% endif %}
+            Citation count is: {{ citation_count }}, {{citation_count != 0}}
             {% if citation_count != 0 %}
               <a
                 href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user={{ site.data.socials.scholar_userid }}&citation_for_view={{ site.data.socials.scholar_userid }}:{{ entry.google_scholar_id }}"
