@@ -25,4 +25,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a researcher at Shanghai Qizhi Institute. I am interested in complexity theory, algorithms and cryptography in both classical and quantum worlds. 
+I am a researcher at Shanghai Qizhi Institute and an incoming PhD student at the University of Cambridge, supervised by Professor Tom Gur. I am interested in complexity theory, algorithms and cryptography in both classical and quantum worlds. 
