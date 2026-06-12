@@ -1,4 +1,4 @@
-<!-- _includes/toggle_citations_button.html - FULL VERSION -->
+<!-- _includes/toggle_citations_button.html - DOM Manipulation Version -->
 <div class="citation-toggle-wrapper" style="display: inline-block; margin-left: 15px;">
   <button id="toggleCitationsBtn" 
           class="btn btn-sm btn-outline-primary"
@@ -21,12 +21,6 @@
     background-color: #ffd700 !important;
     color: #333;
   }
-  .citation-count-hidden {
-    display: none !important;
-  }
-  .citation-count-visible {
-    display: inline-flex !important;
-  }
 </style>
 
 <script>
@@ -34,48 +28,77 @@ document.addEventListener('DOMContentLoaded', function() {
   const toggleBtn = document.getElementById('toggleCitationsBtn');
   const statusBadge = document.getElementById('toggleStatusBadge');
   
-  // Load saved preference from localStorage
+  // Store removed elements to restore them later
+  let removedCitations = new Map(); // key: parent element, value: original element
+  
+  // Load saved preference
   const citationsVisible = localStorage.getItem('googleScholarCitationsVisible') === 'true';
   
-  function updateCitationVisibility(show) {
-    // Look for Google Scholar citation badges
-    const citationElements = document.querySelectorAll('.scholar-badge, .citation-badge, a[href*="scholar.google.com"]');
-    citationElements.forEach(el => {
-      if (show) {
-        el.classList.remove('citation-count-hidden');
-        el.classList.add('citation-count-visible');
-        el.style.display = 'inline-flex';
-      } else {
-        el.classList.remove('citation-count-visible');
-        el.classList.add('citation-count-hidden');
-        el.style.display = 'none';
+  function removeAllCitations() {
+    // Find all Google Scholar citation elements
+    const citations = document.querySelectorAll('.scholar-badge, .citation-badge, a[href*="scholar.google.com/citations"]');
+    
+    citations.forEach(citation => {
+      const parent = citation.parentNode;
+      const nextSibling = citation.nextSibling;
+      
+      // Store info to restore later
+      if (!removedCitations.has(citation)) {
+        removedCitations.set(citation, {
+          parent: parent,
+          nextSibling: nextSibling,
+          element: citation
+        });
+      }
+      
+      // Remove the element from DOM
+      if (citation.parentNode) {
+        citation.parentNode.removeChild(citation);
+      }
+    });
+  }
+  
+  function restoreAllCitations() {
+    // Restore all removed citation elements
+    removedCitations.forEach((data, citation) => {
+      if (data.parent && !data.element.parentNode) {
+        // Insert back at original position
+        if (data.nextSibling && data.nextSibling.parentNode) {
+          data.parent.insertBefore(data.element, data.nextSibling);
+        } else {
+          data.parent.appendChild(data.element);
+        }
       }
     });
     
-    // Update button state
+    // Clear the map after restoring
+    removedCitations.clear();
+  }
+  
+  function updateCitations(show) {
     if (show) {
+      restoreAllCitations();
       toggleBtn.classList.add('active');
       statusBadge.textContent = 'ON';
       statusBadge.classList.remove('bg-secondary');
       statusBadge.classList.add('bg-success');
-      console.log('Citations are now VISIBLE');
     } else {
+      removeAllCitations();
       toggleBtn.classList.remove('active');
       statusBadge.textContent = 'OFF';
       statusBadge.classList.remove('bg-success');
       statusBadge.classList.add('bg-secondary');
-      console.log('Citations are now HIDDEN');
     }
   }
   
   // Set initial state
-  updateCitationVisibility(citationsVisible);
+  updateCitations(citationsVisible);
   
   // Toggle on click
   toggleBtn.addEventListener('click', function() {
     const newState = !(localStorage.getItem('googleScholarCitationsVisible') === 'true');
     localStorage.setItem('googleScholarCitationsVisible', newState);
-    updateCitationVisibility(newState);
+    updateCitations(newState);
   });
 });
 </script>
