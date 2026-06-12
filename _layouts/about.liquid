@@ -57,11 +57,14 @@ layout: default
     {% endif %}
 
     <!-- Selected papers -->
-    {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
-      </h2>
-      {% include selected_papers.liquid %}
+    {% if site.selected_papers %}
+      <div class="publications">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+          <h2 class="mb-0">selected publications</h2>
+          {% include toggle_citations_button.html %}
+        </div>
+        {% bibliography -f {{ site.scholar.bibliography }} -q @*[selected=true]* %}
+      </div>
     {% endif %}
 
     <!-- Social -->
