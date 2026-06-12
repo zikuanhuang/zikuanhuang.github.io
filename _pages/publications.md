@@ -14,7 +14,10 @@ nav_order: 2
 {% include bib_search.liquid %}
 
 <div class="publications">
+  <div class="d-flex justify-content-between align-items-center mb-3">
+    <h1 class="mb-0">publications</h1>
+    {% include toggle_citations_button.html %}
+  </div>
 
-{% bibliography %}
-
+  {% bibliography %}
 </div>
