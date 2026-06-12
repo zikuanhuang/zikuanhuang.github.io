@@ -14,8 +14,17 @@ document.addEventListener('DOMContentLoaded', function() {
   const toggleBtn = document.getElementById('toggleCitationsBtn');
   const statusBadge = document.getElementById('toggleStatusBadge');
   
-  // Load saved preference
-  const citationsVisible = localStorage.getItem('googleScholarCitationsVisible') === 'true';
+  // Load saved preference - DON'T reset it!
+  let citationsVisible = localStorage.getItem('googleScholarCitationsVisible');
+  
+  // If never set before, default to false (OFF)
+  if (citationsVisible === null) {
+    citationsVisible = 'false';
+    localStorage.setItem('googleScholarCitationsVisible', 'false');
+  }
+  
+  // Convert string to boolean
+  const shouldShow = citationsVisible === 'true';
   
   function updateCitationVisibility(show) {
     const citationElements = document.querySelectorAll('.scholar-badge, .citation-badge, a[href*="scholar.google.com/citations"]');
@@ -44,14 +53,19 @@ document.addEventListener('DOMContentLoaded', function() {
     }
   }
   
-  // Set initial state - citations start OFF on publications page
-  updateCitationVisibility(false);  // ← Force OFF initially
-  localStorage.setItem('googleScholarCitationsVisible', 'false');
+  // Apply the saved preference (don't force to false!)
+  updateCitationVisibility(shouldShow);
   
-  // Toggle on click
+  // Toggle on click - preserve the state
   toggleBtn.addEventListener('click', function() {
-    const newState = localStorage.getItem('googleScholarCitationsVisible') !== 'true';
+    // Get current state from localStorage (not from button visual)
+    const currentState = localStorage.getItem('googleScholarCitationsVisible') === 'true';
+    const newState = !currentState;
+    
+    // Save to localStorage
     localStorage.setItem('googleScholarCitationsVisible', newState);
+    
+    // Update visibility
     updateCitationVisibility(newState);
   });
 });
