@@ -6,8 +6,6 @@
       google_scholar_id = {LkGwnXOMwfcC},
       arxiv = {2605.30732},
       eprint = {2026/1090},
-      altmetric = {true},
-      dimensions = {true},
       selected = {true},
       abstract = {While quantum position verification aims to certify a prover's location using quantum information, existing security definitions only guarantee that part of the successful adversarial party is in the claimed location. This leaves open the possibility that a distributed team of adversaries can jointly simulate a prover in a way that defeats the intended meaning of ``being at a location'' in position-based cryptography. We introduce stronger notions of position verification that we call quantum localization, which requires that there is a specified, unclonable state at the verified spacetime point -- and that this state can be found nowhere else. We show that quantum localization leads naturally to a meaningful notion of trajectory verification, in which quantum information is verifiably tracked through space and time. We construct quantum localization and trajectory verification protocols using quantum anchor states, which generalize coset states from unclonable cryptography. The security of our schemes are proven in the classical oracle (i.e. ideal obfuscation) model, which can be heuristically instantiated in the plain model using post-quantum indistinguishability obfuscation. We also introduce and instantiate the concept of functionality localization, which guarantees that the adversary has the ability to compute a secret function at the verified spacetime point, and this function cannot be computed anywhere else. This raises the intriguing possibility of localizing computational capabilities in space and time. More broadly, we believe our notions of quantum localization and our feasibility results provide stronger foundations for position-based cryptography.}
 }
@@ -19,8 +17,6 @@
       year = {2026},
       google_scholar_id = {Y0pCki6q_DkC},
       eprint = {2024/256},
-      altmetric = {true},
-      dimensions = {true},
       selected = {true},
       abstract = {We study how to construct hash functions that can securely instantiate the Fiat-Shamir transformation against bounded-depth adversaries. The motivation is twofold. First, given the recent fruitful line of research of constructing cryptographic primitives against bounded-depth adversaries under worst-case complexity assumptions, and the rich applications of Fiat-Shamir, instantiating Fiat-Shamir hash functions against bounded-depth adversaries under worst-case complexity assumptions might lead to further applications (such as SNARG for P, showing the cryptographic hardness of PPAD, etc.) against bounded-depth adversaries. Second, we wonder whether it is possible to overcome the impossibility results of constructing Fiat-Shamir for arguments  [Goldwasser, Kalai, FOCS '03] in the setting where the depth of the adversary is bounded, given that the known impossibility results (against p.p.t. adversaries) are contrived. Our main results give new insights for Fiat-Shamir against bounded-depth adversaries in both the positive and negative directions. On the positive side, for Fiat-Shamir for proofs with certain properties, we show that weak worst-case assumptions are enough for constructing explicit hash functions that give AC0[2]-soundness. In particular, we construct an AC0[2]-computable correlation-intractable hash family for constant-degree polynomials against AC0[2] adversaries, assuming some assumptions. This is incomparable to all currently-known constructions, which are typically useful for larger classes and against stronger adversaries, but based on arguably stronger assumptions. Our construction is inspired by the Fiat-Shamir hash function by Peikert and Shiehian [CRYPTO '19] and the fully-homomorphic encryption scheme against bounded-depth adversaries by Wang and Pan [EUROCRYPT '22]. On the negative side, we show Fiat-Shamir for arguments is still impossible to achieve against bounded-depth adversaries. In particular, Assuming the existence of AC0[2]-computable CRHF against p.p.t. adversaries, for every poly-size hash function, there is a (p.p.t.-sound) interactive argument that is not AC0[2]-sound after applying Fiat-Shamir with this hash function. Assuming the existence of AC0[2]-computable CRHF against AC0[2] adversaries, there is an AC0[2]-sound interactive argument such that for every hash function computable by AC0[2] circuits, the argument does not preserve AC0[2]-soundness when applying Fiat-Shamir with this hash function. This is a low-depth variant of Goldwasser and Kalai.}
 }
@@ -34,8 +30,6 @@
       arxiv = {2602.23763},
       eccc = {2026/031},
       eprint = {2026/403},
-      altmetric = {true},
-      dimensions = {true},
       selected = {true},
       abstract = {In this work, we establish the first separation between computation with bounded and unbounded space, for problems with short outputs (i.e., working memory can be exponentially larger than output size), both in the classical and the quantum setting. Towards that, we introduce a problem called nested collision finding, and show that optimal query complexity can not be achieved without exponential memory. Our result is based on a novel ``two-oracle recording'' technique, where one oracle ``records'' the computation's long outputs under the other oracle, effectively reducing the time-space trade-off for short-output problems to that of long-output problems. We believe this technique will be of independent interest for establishing time-space tradeoffs in other short-output settings.}
 }
@@ -47,8 +41,6 @@
       year = {2026},
       google_scholar_id = {_FxGoFyzp5QC},
       eprint = {2025/1880},
-      altmetric = {true},
-      dimensions = {true},
       selected = {true},
       abstract = {Quantum copy-protection is a functionality-preserving compiler that transforms a classical program into an unclonable quantum program. This primitive has emerged as a foundational topic in quantum cryptography, with significant recent developments. However, characterizing the functionalities that can be copy-protected is still an active and ongoing research direction. Assuming the existence of indistinguishability obfuscation and learning with errors, we show the existence of copy-protection for a variety of classes of functionalities, including puncturable cryptographic functionalities and subclasses of evasive functionalities. This strictly improves upon prior works, which were either based on the existence of heuristic assumptions [Ananth and Behera CRYPTO'24] or were based on the classical oracle model [Coladangelo and Gunn STOC'24]. Moreover, our constructions satisfy a new and much stronger security definition compared to the ones studied in the prior works. To design copy-protection, we follow the blueprint of constructing copy-protection from unclonable puncturable obfuscation (UPO) [Ananth and Behera CRYPTO'24] and present a new construction of UPO by leveraging the recently introduced techniques from [Kitagawa and Yamakawa TCC'25]. }
 }
@@ -60,8 +52,6 @@
       year = {2024},
       google_scholar_id = {IjCSPb-OGe4C},
       eprint = {2024/738},
-      altmetric = {true},
-      dimensions = {true},
       selected = {true},
       abstract = {Quantum information can be used to achieve novel cryptographic primitives that are impossible to achieve classically. A recent work by Ananth, Poremba, Vaikuntanathan (TCC 2023) focuses on equipping the dual-Regev encryption scheme, introduced by Gentry, Peikert, Vaikuntanathan (STOC 2008), with key revocation capabilities using quantum information. They further showed that the key-revocable dual-Regev scheme implies the existence of fully homomorphic encryption and pseudorandom functions, with both of them also equipped with key revocation capabilities. Unfortunately, they were only able to prove the security of their schemes based on new conjectures and left open the problem of basing the security of key revocable dual-Regev encryption on well-studied assumptions. In this work, we resolve this open problem. Assuming polynomial hardness of learning with errors (over sub-exponential modulus), we show that key-revocable dual-Regev encryption is secure. As a consequence, for the first time, we achieve the following results: (1) Key-revocable public-key encryption and key-revocable fully-homomorphic encryption satisfying classical revocation security and based on polynomial hardness of learning with errors. Prior works either did not achieve classical revocation or were based on sub-exponential hardness of learning with errors. (2) Key-revocable pseudorandom functions satisfying classical revocation from the polynomial hardness of learning with errors. Prior works relied upon unproven conjectures.}
 }
