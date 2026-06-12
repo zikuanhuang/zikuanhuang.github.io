@@ -58,13 +58,7 @@ layout: default
 
     <!-- Selected papers -->
     {% if site.selected_papers %}
-      <div class="publications">
-        <div class="d-flex justify-content-between align-items-center mb-3">
-          <h2 class="mb-0">selected publications</h2>
-          {% include toggle_citations_button.html %}
-        </div>
-        {% bibliography -f {{ site.scholar.bibliography }} -q @*[selected=true]* %}
-      </div>
+      {% include selected_papers.liquid %}
     {% endif %}
 
     <!-- Social -->
