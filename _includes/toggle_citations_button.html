@@ -1,19 +1,22 @@
 <!-- _includes/toggle_citations_button.html - FIXED VERSION -->
-<div class="citation-toggle-wrapper" style="display: inline-block; margin-left: 15px;">
-  <button id="toggleCitationsBtn" 
-          class="btn btn-sm btn-outline-primary"
+
+<div class="citation-toggle-wrapper d-flex flex-column align-items-start">
+
+  <button id="toggleCitationsBtn"
+          class="btn btn-sm btn-outline-primary mb-2"
           style="border-radius: 20px; font-size: 0.85rem;">
     <i class="fas fa-chart-line"></i> Google Scholar Statistics
     <span id="toggleStatusBadge" class="badge bg-secondary ms-1">OFF</span>
   </button>
-  
+
   <a href="https://scholar.google.com/citations?user=EDJSTAcAAAAJ&hl=en"
      target="_blank"
      rel="noopener noreferrer"
-     class="btn btn-sm btn-outline-primary"
+     class="btn btn-sm btn-outline-primary scholar-profile-btn"
      style="border-radius: 20px; font-size: 0.85rem;">
     <i class="fas fa-graduation-cap"></i> Google Scholar →
   </a>
+
 </div>
 
 <style>
