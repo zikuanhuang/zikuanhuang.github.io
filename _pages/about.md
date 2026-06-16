@@ -25,6 +25,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a researcher at Shanghai Qizhi Institute and an incoming PhD student at the University of Cambridge, supervised by [Prof. Tom Gur](https://www.cst.cam.ac.uk/people/tg508). Previously, I received my bachelor's degree in 2025 from the Institute for Interdisciplinary Information Sciences (Yao Class) at Tsinghua University, where I was fortunate to be advised by [Prof. Yilei Chen](http://www.chenyilei.net/). I have also worked as a visiting researcher at the University of California, Santa Barbara, supervised by [Prof. Prabhanjan Ananth](https://sites.google.com/site/prabhanjanva/home).
+I am a researcher at Shanghai Qizhi Institute and an incoming PhD student at the University of Cambridge, supervised by [Prof. Tom Gur](https://www.cst.cam.ac.uk/people/tg508). Previously, I received my bachelor's degree in 2025 from the Institute for Interdisciplinary Information Sciences (Yao Class) at Tsinghua University, where I was fortunate to be advised by [Prof. Yilei Chen](http://www.chenyilei.net/). I have also worked as a visiting researcher during my undergraduate period at the University of California, Santa Barbara, supervised by [Prof. Prabhanjan Ananth](https://sites.google.com/site/prabhanjanva/home).
 
 My research interests lie in complexity theory, algorithms, and cryptography in both classical and quantum settings.
