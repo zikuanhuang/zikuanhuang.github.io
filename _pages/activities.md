@@ -7,7 +7,8 @@ collection: activities
 ---
 
 ## Conference Reviews
-QIP 2025,2026
+
+QIP 2025, 2026
 
 Eurocrypt 2025
 
