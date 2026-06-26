@@ -1,5 +1,5 @@
 ---
-layout: activities
+layout: page
 title: Activities
 permalink: /activities/
 nav: true
