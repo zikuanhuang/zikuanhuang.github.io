@@ -129,6 +129,7 @@ def get_scholar_citations() -> None:
 
 
 if __name__ == "__main__":
+    print("Script starts running!")
     try:
         get_scholar_citations()
     except Exception as e:
