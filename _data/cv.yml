@@ -1,17 +1,18 @@
 cv:
   name: Zikuan Huang
   email: huangzk0506 at outlook d c0m
-  location: Shanghai, China
+  location: Cambridge, United Kingdom
   image: ""
-
-  address:
-    street: 701 Yunjin Rd
-    city: Shanghai
-    region: China
-    postalCode: 200232
 
   sections:
     Education:
+      - institution: University of Cambridge
+        location: Cambridge, United Kingdom
+        area: Quantum Cryptography
+        studyType: PhD
+        start_date: 2026.09
+        end_date:
+        
       - institution: Tsinghua University
         location: Beijing, China
         area: Computer Science and Technology
@@ -24,7 +25,7 @@ cv:
         position: Researcher
         location: Shanghai, China
         start_date: 2025.12
-        end_date: 
+        end_date: 2026.09
 
       - company: University of California, Santa Barbara
         position: Research Intern
