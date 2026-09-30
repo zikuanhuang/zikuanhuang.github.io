@@ -33,6 +33,9 @@ ninja.data = [{
         },{id: "news-i-joined-shanghai-qizhi-institute-as-a-researcher",
           title: 'I joined Shanghai Qizhi Institute as a researcher!',
           description: "",
+          section: "News",},{id: "news-i-started-my-phd-at-the-university-of-cambridge",
+          title: 'I started my PhD at the University of Cambridge!',
+          description: "",
           section: "News",},{
         id: 'social-cv',
         title: 'CV',
