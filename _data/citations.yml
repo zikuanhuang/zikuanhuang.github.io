@@ -1,23 +1,23 @@
 metadata:
-  last_updated: '2026-08-28'
+  last_updated: '2026-10-10'
 papers:
   EDJSTAcAAAAJ:IjCSPb-OGe4C:
-    citations: 15
+    citations: 17
     title: Quantum key-revocable dual-regev encryption, revisited
     year: '2024'
   EDJSTAcAAAAJ:LkGwnXOMwfcC:
-    citations: 1
+    citations: 3
     title: 'How To Track Qubits Through Space and Time (Or: Sailing in a Quantum Boat)'
     year: '2026'
   EDJSTAcAAAAJ:Y0pCki6q_DkC:
-    citations: 0
+    citations: 1
     title: Fiat-Shamir for Bounded-Depth Adversaries
     year: '2024'
   EDJSTAcAAAAJ:_FxGoFyzp5QC:
-    citations: 7
+    citations: 11
     title: Copy-Protection from Unclonable Puncturable Obfuscation, Revisited
     year: '2026'
   EDJSTAcAAAAJ:roLk4NBRz8UC:
-    citations: 1
+    citations: 2
     title: On the Need for (Quantum) Memory with Short Outputs
     year: '2026'
