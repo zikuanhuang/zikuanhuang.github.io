@@ -6,9 +6,9 @@ nav: true
 collection: activities
 ---
 
-## Conference Subreviews
+## Conference Reviews
 
-QIP 2025, 2026
+QIP 2025, 2026, 2027
 
 Eurocrypt 2025
 
